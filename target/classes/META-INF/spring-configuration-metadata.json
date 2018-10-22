@@ -1,0 +1,134 @@
+{
+  "hints": [],
+  "properties": [
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.auto-connect-when-started",
+      "defaultValue": true,
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.ca-crt",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.clean-session",
+      "defaultValue": true,
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.client-crt",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.client-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.connect-re-try-interval",
+      "defaultValue": 10000,
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.connect-re-try-max-times",
+      "defaultValue": 5,
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.connect-time-out",
+      "defaultValue": 30000,
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.enable",
+      "defaultValue": false,
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.keep-alive-time",
+      "defaultValue": 60000,
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.log-message-arrived",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.log-message-arrived-body",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.mqtt-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.mqtt-user",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.mqttpw",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.on-started-subcribe-topics",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.on-started-subcribe-topics-qos",
+      "defaultValue": [
+        0
+      ],
+      "type": "java.lang.Integer[]"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.re-connect",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.ssl-strict",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.use-auth",
+      "defaultValue": true,
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter.use-ssl",
+      "defaultValue": false,
+      "type": "java.lang.Boolean"
+    }
+  ],
+  "groups": [
+    {
+      "sourceType": "com.haowen.mqtt.comp.MyMqttConfig",
+      "name": "haowen.mqtt.starter",
+      "type": "com.haowen.mqtt.comp.MyMqttConfig"
+    }
+  ]
+}
