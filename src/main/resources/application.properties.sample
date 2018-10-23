@@ -14,8 +14,8 @@ haowen.mqtt.starter.mqtt-user=user
 haowen.mqtt.starter.mqttpw=123
 #clientid,空的话，用uuid
 #haowen.mqtt.starter.client-id=
-#连接超时时间
-haowen.mqtt.starter.connect-time-out=10000
+#连接超时时间 秒
+haowen.mqtt.starter.connect-time-out=30
 
 ######ssl的证书
 haowen.mqtt.starter.use-ssl=true
@@ -30,7 +30,7 @@ haowen.mqtt.starter.client-key=classpath:client.key
 ####连接的属性
 #是否接收离线消息。true不接受
 haowen.mqtt.starter.clean-session=true
-#心跳时间
+#心跳时间 秒
 haowen.mqtt.starter.keep-alive-time=30
 
 
@@ -38,7 +38,7 @@ haowen.mqtt.starter.keep-alive-time=30
 ###重连
 #是否重连
 haowen.mqtt.starter.re-connect=true
-#重连的间隔
+#重连的间隔 毫秒
 haowen.mqtt.starter.connect-re-try-interval=10000
 #重连的最大次数
 haowen.mqtt.starter.connect-re-try-max-times=10

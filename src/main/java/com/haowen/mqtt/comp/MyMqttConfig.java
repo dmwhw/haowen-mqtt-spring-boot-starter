@@ -32,9 +32,9 @@ public class MyMqttConfig implements Serializable,Cloneable {
 	private String clientCrt;
 	private String clientKey;
 	
-	private Integer connectTimeOut = 30000;
+	private Integer connectTimeOut = 3000;
 	private Integer connectReTryMaxTimes = 5;
-	private Integer connectReTryInterval = 10000;
+	private Integer connectReTryInterval = 60;
 	private boolean isReConnect=true;
 	private boolean autoConnectWhenStarted = true;
 

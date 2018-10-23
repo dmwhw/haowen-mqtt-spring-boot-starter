@@ -36,6 +36,6 @@ public @interface MyMqttClientListener {
 	 * @Description 
 	 * @return
 	 */
-	String clientName();
+	String clientName() default "" ;
 	
 }

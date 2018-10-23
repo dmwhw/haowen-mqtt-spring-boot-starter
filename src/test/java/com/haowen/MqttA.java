@@ -8,7 +8,7 @@ import com.haowen.mqtt.comp.listener.MqttListener;
 import com.haowen.mqtt.starter.annotation.MyMqttClientListener;
 
 
-@MyMqttClientListener(clientName="myMQTTClient",order=2)
+@MyMqttClientListener(clientName="myMQTTClient")
 public class MqttA implements MqttListener{
 
 	@Override
