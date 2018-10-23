@@ -31,8 +31,12 @@ private MyMQTTClient myMQTTClient;
 		clone.setMqttUrl(url2);
 		clone.setMqttUser(userName2);
 		clone.setMqttpw(pw2);
+		
+		//可以对Listener过滤、排序
+		List<MqttListener> _mqttListeners=Filter.filterAndSort(mqttListeners, myMQTTClient);
+
 		//直接赋值 listener
-		return MyMqttInitializer.init(clone, mqttListeners, null, null, null);
+		return MyMqttInitializer.init(clone, _mqttListeners, null, null, null);
 		  
 	}
 
