@@ -21,7 +21,7 @@ public class Filter {
 	 * @time 2018年10月23日下午1:50:36
 	 * @Description 
 	 * @param list
-	 * @param mqttName
+	 * @param mqttName 监听器名称
 	 * @return
 	 */
 	public final static <T> List<T> filterAndSort(List<T> list,String mqttName){
@@ -43,8 +43,8 @@ public class Filter {
 	 * @author haowen
 	 * @time 2018年10月23日下午1:50:36
 	 * @Description 
-	 * @param list
-	 * @param mqttName
+	 * @param list 监听器列表
+	 * @param mqttName mqttclient的实例名
 	 * @return
 	 */
 	public final static <T> List<T> sort(List<T> list ){

@@ -12,7 +12,8 @@ public class SpringBootTest {
 	public static void main(String[] args) {
 		System.out.println("");
 		SpringApplication.run(SpringBootTest.class, args);
+	} 
+	  
+
 	}
-	
-	
-	}
+   

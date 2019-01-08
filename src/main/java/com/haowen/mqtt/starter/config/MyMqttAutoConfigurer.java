@@ -1,10 +1,6 @@
 package com.haowen.mqtt.starter.config;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-
 import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,20 +10,18 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.annotation.AnnotationUtils;
 
-import com.haowen.mqtt.comp.MyMQTTClient;
-import com.haowen.mqtt.comp.MyMqttConfig;
-import com.haowen.mqtt.comp.MyMqttInitializer;
-import com.haowen.mqtt.comp.listener.MqttConnectlLostListener;
-import com.haowen.mqtt.comp.listener.MqttDeliveryCompleteListener;
-import com.haowen.mqtt.comp.listener.MqttListener;
-import com.haowen.mqtt.comp.listener.MqttMsgArrivedListener;
-import com.haowen.mqtt.starter.annotation.MyMqttClientListener;
+import com.haowen.mqtt.core.MyMQTTClient;
+import com.haowen.mqtt.core.MyMqttConfig;
+import com.haowen.mqtt.core.MyMqttInitializer;
+import com.haowen.mqtt.core.listener.MqttConnectlLostListener;
+import com.haowen.mqtt.core.listener.MqttDeliveryCompleteListener;
+import com.haowen.mqtt.core.listener.MqttListener;
+import com.haowen.mqtt.core.listener.MqttMsgArrivedListener;
 
 @Configuration
-@EnableConfigurationProperties(value = MyMqttConfig.class)
-@ConditionalOnClass(MqttClient.class)
+@EnableConfigurationProperties(value = MyMqttConfigBean.class)
+@ConditionalOnClass({MqttClient.class,MyMQTTClient.class})
 @ConditionalOnProperty(prefix = "haowen.mqtt.starter", name="enable", havingValue="true")
 public class MyMqttAutoConfigurer {
 	private final static  Logger log= LoggerFactory.getLogger(MyMqttAutoConfigurer.class);

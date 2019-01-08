@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="target/haowen-mqtt-spring-boot-starter-0.0.1-SNAPSHOT.jar.original" tofile="target/haowen-mqtt-spring-boot-starter-0.0.1-SNAPSHOT-bin.jar" overwrite="true"></copy>
+</target>
+</project>

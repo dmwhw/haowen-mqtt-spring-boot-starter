@@ -5,6 +5,21 @@
 
 ##一、依赖
 集成需要eclipse-paho-mqtt-client、bcpro-jdk16-1.4(ssl支持)
+
+
+		<dependency>
+			<groupId>org.eclipse.paho</groupId>
+			<artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-jdk16</artifactId>
+			<version>1.46</version>
+		</dependency>
+
+
 ##二、配置方式
 需要开启如下配置
 

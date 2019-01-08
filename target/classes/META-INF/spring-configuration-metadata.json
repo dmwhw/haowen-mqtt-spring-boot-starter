@@ -1,0 +1,147 @@
+{
+  "hints": [],
+  "properties": [
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.auto-connect-when-started",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.bytereader-classimpl",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.ca-crt",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.clean-session",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.client-crt",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.client-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.connect-re-try-interval",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.connect-re-try-max-times",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.connect-time-out",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.enable",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.keep-alive-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.last-will-topic",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.last-will-topic-content",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.last-will-topic-qos",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.last-will-topic-retain",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.log-message-arrived",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.log-message-arrived-body",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.mqtt-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.mqtt-user",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.mqttpw",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.on-started-subcribe-topics",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.on-started-subcribe-topics-qos",
+      "type": "java.lang.Integer[]"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.re-connect",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.ssl-strict",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.use-auth",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter.use-ssl",
+      "type": "java.lang.Boolean"
+    }
+  ],
+  "groups": [
+    {
+      "sourceType": "com.haowen.mqtt.starter.config.MyMqttConfigBean",
+      "name": "haowen.mqtt.starter",
+      "type": "com.haowen.mqtt.starter.config.MyMqttConfigBean"
+    }
+  ]
+}

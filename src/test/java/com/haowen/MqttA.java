@@ -3,8 +3,8 @@ package com.haowen;
 import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 
-import com.haowen.mqtt.comp.MyMQTTClient;
-import com.haowen.mqtt.comp.listener.MqttListener;
+import com.haowen.mqtt.core.MyMQTTClient;
+import com.haowen.mqtt.core.listener.MqttListener;
 import com.haowen.mqtt.starter.annotation.MyMqttClientListener;
 
 
