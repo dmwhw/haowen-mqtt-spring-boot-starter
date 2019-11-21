@@ -4,8 +4,8 @@
 	<groupId>com.haowen</groupId>
 	<artifactId>haowen-mqtt-spring-boot-starter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
-	
+	<packaging>jar</packaging>
+
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -21,6 +21,12 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.haowen</groupId>
+			<artifactId>haowen-mqtt-core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
@@ -58,8 +64,8 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
- 			</plugin>
- 			
+			</plugin>
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-antrun-plugin</artifactId>
@@ -72,19 +78,22 @@
 						<configuration>
 							<target>
 
-								<copy file="target/haowen-mqtt-spring-boot-starter-0.0.1-SNAPSHOT.jar.original"  overwrite="true" tofile="target/haowen-mqtt-spring-boot-starter-0.0.1-SNAPSHOT-bin.jar">
- 
+								<copy
+									file="target/haowen-mqtt-spring-boot-starter-0.0.1-SNAPSHOT.jar.original"
+									overwrite="true"
+									tofile="target/haowen-mqtt-spring-boot-starter-0.0.1-SNAPSHOT-bin.jar">
+
 								</copy>
-				
+
 							</target>
 						</configuration>
 					</execution>
 				</executions>
 			</plugin>
-			
- 			
- 			
- 			
+
+
+
+
 		</plugins>
 	</build>
 
